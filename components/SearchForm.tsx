@@ -24,6 +24,7 @@ const SearchForm = () => {
         newUrl = formUrlQuery({
           params: searchParams.toString(),
           keysToRemove: ['query'],
+          value: '',
         });
       }
       router.push(newUrl, { scroll: false });
