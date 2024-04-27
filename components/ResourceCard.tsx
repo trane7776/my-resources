@@ -26,7 +26,7 @@ const ResourceCard = ({
         <CardHeader className="flex-center flex-col gap-2.5 !p-0">
           <div className="h-fit w-full">
             <Image
-              src={urlFor(image).url()}
+              src={image}
               className="h-full rounded-md object-cover"
               width={384}
               height={440}
