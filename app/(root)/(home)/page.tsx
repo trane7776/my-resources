@@ -23,7 +23,7 @@ const Page = async ({ searchParams }: Props) => {
       <section className="nav-padding w-full">
         <div className="flex-center relative min-h-[274px] w-full flex-col rounded-xl bg-banner bg-cover bg-center text-center">
           <h1 className=" heading2 mb-6 text-center text-white">
-            Полезные ресурсы от Избасарова
+            Полезные ресурсы от Избасарова ✨
           </h1>
         </div>
         <SearchForm />
